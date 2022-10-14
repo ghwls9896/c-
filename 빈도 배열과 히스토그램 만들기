@@ -31,7 +31,7 @@ cout << "There are " << size << " valid data items." << endl;
 for (int data = 0; data < 10; data++)
 {
 cout << data << " : ";
-for(int i= 0;i <= frequencies[data]; i++){
+for(int i= 0;i < frequencies[data]; i++){
   cout<<"*";
 }
   cout<<endl;
